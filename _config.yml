@@ -23,7 +23,7 @@ author:
 
 # URL settings
 url: "https://50calc.com" #
-baseurl: /web/
+baseurl: 
 permalink: /:title/
 google_analytics: # leave it blank if not wish
 fb_appid:

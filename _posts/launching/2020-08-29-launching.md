@@ -3,8 +3,14 @@ layout: post
 title: "Welcome to DM50!"
 date: 2024-006-05 20:25:00 +01:00
 categories: dm50 init
+imglcdinit: /assets/img/screen01.png
+imginspiration: /assets/img/inspiration01.jpg
 ---
 
+<figure>
+<img src="{{ page.imglcdinit }}" alt="ilustrasi repo yang mau diupdate">
+<figcaption>Me :-D</figcaption>
+</figure>
 
 ## Launching a New Open Source Classic Calculator Project
 
@@ -13,6 +19,11 @@ In the era of smartphones and digital apps, the charm and reliability of classic
 ### Project Vision
 
 Our vision is to combine the best of both worlds: the robustness and precision of classic calculators with the innovation and accessibility of modern technology. By leveraging open-source principles, we aim to create a calculator that not only pays homage to the past but also invites the community to contribute and evolve the design. This project will result in a device that is not only functional but also customizable, repairable, and manufacturable by anyone with the passion and tools to do so.
+
+<figure>
+<img src="{{ page.imginspiration }}" alt="Pocket Operator">
+<figcaption>Pocket Operator inspiration</figcaption>
+</figure>
 
 ### Key Features
 

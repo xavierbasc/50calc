@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Welcome to DM50!"
-date: 2024-006-05 20:25:00 +01:00
+date: 2024-06-01 20:25:00 +01:00
 categories: dm50 init
 imglcdinit: /assets/img/screen01.png
 imginspiration: /assets/img/inspiration01.jpg
 ---
 
 <figure>
-<img src="{{ page.imglcdinit }}" alt="ilustrasi repo yang mau diupdate">
+<img src="{{ page.imglcdinit }}" alt="Javier Bascones Velazquez">
 <figcaption>Me :-D</figcaption>
 </figure>
 

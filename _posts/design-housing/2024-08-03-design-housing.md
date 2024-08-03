@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "advances in caculator housing"
+title: "Advances in caculator housing"
 date: 2024-08-03 10:25:00 +01:00
 categories: dm50 init housing case
 img1: /assets/img/housing.png

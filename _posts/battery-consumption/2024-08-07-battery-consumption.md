@@ -14,7 +14,8 @@ Here's a breakdown of the power consumption for the main components of the DM50:
 - **LCD**: 320µA
 - **REGULATOR**: 18μA
 - **RAM standby**: 10µA
-- **TOTAL**: 2.0mA
+
+**TOTAL**: 2.0mA
 
 ### STM32 Microcontroller Power Consumption:
 

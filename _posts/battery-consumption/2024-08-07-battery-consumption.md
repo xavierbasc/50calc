@@ -2,9 +2,8 @@
 layout: post
 title: "Battery Consumption and Lifespan"
 date: 2024-08-07 20:15:00 +01:00
-categories: dm50 init battery lipo consumption
+categories: dm50 init battery lipo consumption lifespan
 img1: /assets/img/LP305060.jpg
-img2: /assets/img/housing2.png
 ---
 
 ### DM50 System Power Consumption
@@ -12,16 +11,19 @@ img2: /assets/img/housing2.png
 Here's a breakdown of the power consumption for the main components of the DM50:
 
 - **LCD**: 0.4mA
-- **MCU STM32U5** at 160MHz: 2.5mA
-- **MCU STM32U5** at 110MHz: 1.7mA
-- **Total**: 2.1mA (at 110MHz)
+- **MCU STM32U5** (160MHz): 2.5mA
+- **MCU STM32U5** (110MHz): 1.7mA
+- **ADP2108**: 18μA
+- **W25Q128**: 10µA (standby)
+- **EA_DOGL128L-6**: 320µA
+- **Total**: 2.5mA (at 110MHz)
 
-### STM32 Microcontroller Power Consumption Comparison:
+### STM32 Microcontroller Power Consumption:
 
-- **STM32U5**: 90 nA (shutdown) / 16 μA/MHz (active)
-- **STM32U0**: 16 nA (shutdown) / 52 μA/MHz (active)
-- **STM32L5**: 17 nA (shutdown) / 62 μA/MHz (active)
-- **STM32L0**: 16 nA (shutdown) / 52 μA/MHz (active)
+- **STM32U0**: 52 μA/MHz
+- **STM32L0**: 52 μA/MHz
+- **STM32L5**: 62 μA/MHz
+- **STM32U5**: 16 μA/MHz
 
 As you can see, the STM32U5 stands out with its super-efficient active power consumption.
 
@@ -45,8 +47,8 @@ Here are some LiPO battery options that could power up your calculator:
 
 Here's a rough idea of how long different batteries will last, based on an average of 8 hours of usage per day:
 
-- **2000mAh (2xAAA)**: 952 hours (119 days)
-- **900mAh LiPO**: 428 hours (53 days)
 - **150mAh LiPO**: 75 hours (9 days)
+- **900mAh LiPO**: 428 hours (53 days)
+- **2000mAh (2xAAA)**: 952 hours (119 days)
 
 So, with these estimates, you can pick the right battery to keep your calculator running as long as you need!

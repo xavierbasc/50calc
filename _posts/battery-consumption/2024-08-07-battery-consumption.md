@@ -10,13 +10,11 @@ img1: /assets/img/LP305060.jpg
 
 Here's a breakdown of the power consumption for the main components of the DM50:
 
-- **LCD**: 0.4mA
-- **MCU STM32U5** (160MHz): 2.5mA
-- **MCU STM32U5** (110MHz): 1.7mA
-- **ADP2108**: 18μA
-- **W25Q128**: 10µA (standby)
-- **EA_DOGL128L-6**: 320µA
-- **Total**: 2.5mA (at 110MHz)
+- **STM32U5 110MHz**: 1.7mA
+- **LCD**: 320µA
+- **REGULATOR**: 18μA
+- **RAM standby**: 10µA
+- **TOTAL**: 2.0mA
 
 ### STM32 Microcontroller Power Consumption:
 

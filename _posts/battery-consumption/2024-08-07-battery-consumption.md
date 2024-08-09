@@ -19,14 +19,14 @@ Here's a breakdown of the power consumption for the main components of the DM50:
 
 ### STM32 Microcontroller Power Consumption:
 
-- **STM32U073**:  52μA/MHz run, 16nA off
-- **STM32L072**:  93µA/MHz run, 860nA off
-- **STM32L151**: 185µA/MHz run, 440nA off
-- **STM32L451**:  84µA/MHz run, 22nA off
-- **STM32L4P5**:  41μA/MHz run, 22nA off
-- **STM32L552**:  62μA/MHz run, 17nA off
-- **STM32U535**:  16μA/MHz run, 90nA off
-- **STM32U575**:  20μA/MHz run, 160nA off
+- **STM32U073**:  52 μA/MHz run, 16 nA off
+- **STM32L072**:  93 µA/MHz run, 860 nA off
+- **STM32L151**: 185 µA/MHz run, 440 nA off
+- **STM32L451**:  84 µA/MHz run, 22 nA off
+- **STM32L4P5**:  41 μA/MHz run, 22 nA off
+- **STM32L552**:  62 μA/MHz run, 17 nA off
+- **STM32U535**:  16 μA/MHz run, 90 nA off
+- **STM32U575**:  20 μA/MHz run, 160 nA off
 
 As you can see, the STM32U5 stands out with its super-efficient active power consumption.
 

@@ -14,10 +14,10 @@ author:
   bio: >- # tell to the world
     The minimalist Jekyll theme, light and dark mode support, for running a personal site and blog, 
     meet Klisé theme at <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">@github</a>.
-  username: username # general username
+  username: xavierbasc # general username
   github: xavierbasc # github username
-  twitter: twitter_username # twitter username
-  facebook: facebook_username # facebook username
+  twitter: xavierbasc # twitter username
+  facebook: xavierbasc # facebook username
   email: javier.bascones@gmail.com # email adress
   avatar: /assets/img/avatar.jpg # change with your own avatar
 

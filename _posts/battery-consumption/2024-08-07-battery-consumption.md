@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Battery Consumption and Lifespan"
+title: "Battery consumption and lifespan"
 date: 2024-08-07 20:15:00 +01:00
 categories: dm50 init battery lipo consumption lifespan
 img1: /assets/img/LP305060.jpg

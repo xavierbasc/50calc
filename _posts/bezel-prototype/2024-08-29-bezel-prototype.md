@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bezel"
+title: "Bezel Prototype"
 date: 2024-08-29 15:00:00 +01:00
 categories: dm50 init bezel
 img1: /assets/img/DM50_BEZEL01.png

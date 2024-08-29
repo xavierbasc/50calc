@@ -10,7 +10,7 @@ img1: /assets/img/LP305060.jpg
 
 Here's a breakdown of the power consumption for the main components of the DM50:
 
-- **STM32U5 110MHz**: 1.7mA
+- **STM32U5 110MHz**: 2mA aprox
 - **LCD**: 320µA
 - **REGULATOR**: 18μA
 - **RAM standby**: 10µA
@@ -27,6 +27,7 @@ Here's a breakdown of the power consumption for the main components of the DM50:
 - **STM32L552**:  62 μA/MHz run, 17 nA off
 - **STM32U535**:  16 μA/MHz run, 90 nA off
 - **STM32U575**:  20 μA/MHz run, 160 nA off
+- **STM32U595**:  18 μA/MHz run, 150 nA off
 
 As you can see, the STM32U5 stands out with its super-efficient active power consumption.
 

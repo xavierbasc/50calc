@@ -2,13 +2,17 @@
   url: /
   external: false
 
-- title: downloads
-  url: /downloads/
+- title: PCB
+  url: https://github.com/xavierbasc/dm50/tree/main/hardware/gerbers
   external: false
 
+- title: case
+  url: https://raw.githubusercontent.com/xavierbasc/dm50/main/3d/DM50_V1.stl
+  external: true
+
 - title: bezel
-  url: /bezel/
-  external: false
+  url: https://raw.githubusercontent.com/xavierbasc/dm50/main/docs/bezel/DM50_BEZEL01.pdf
+  external: true
 
 - title: blog
   url: /archive/

@@ -1,9 +1,9 @@
 <footer class="footer">
-  <a class="footer_item" href="/about/">about</a>
-  <a class="footer_item" href="/feed.xml">rss</a>
+  <a class="footer_item" href="{{ '/about/' | relative_url }}">about</a>
+  <a class="footer_item" href="{{ '/feed.xml' | relative_url }}">rss</a>
   <span class="footer_item">&copy; {{ site.time | date: "%Y" }}</span>
 </footer>
-<script src="/assets/js/main.js" defer="defer"></script>
+<script src="{{ '/assets/js/main.js' | relative_url }}" defer="defer"></script>
 {%- if site.google_analytics -%}
   <!-- Google tag (gtag.js) -->
   <script
@@ -21,12 +21,12 @@
   </script>
 {%- endif -%}
 {%- if page.url == '/archive/' -%}
-  <script src="/assets/js/search.min.js"></script>
+  <script src="{{ '/assets/js/search.min.js' | relative_url }}"></script>
   <script>
     var sjs = SimpleJekyllSearch({
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('search-results'),
-      json: '/assets/search.json',
+      json: '{{ '/assets/search.json' | relative_url }}',
     });
   </script>
 {%- endif -%}

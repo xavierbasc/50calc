@@ -166,8 +166,8 @@
         {%- if menus %}
           {%- for menu in menus -%} 
             {%- if url == menu.url -%}
-              <a class="menu-link active" href="{{ menu.url }}">{{ menu.title }}</a>
-            {%- else -%} 
+              <a class="menu-link active" href="{{ menu.url | relative_url }}">{{ menu.title }}</a>
+            {%- else -%}
               {%- if menu.external -%}
                 <a
                   class="menu-link"
@@ -177,15 +177,15 @@
                   >{{ menu.title }}</a
                 >
               {%- else -%}
-                <a class="menu-link" href="{{ menu.url }}">{{ menu.title }}</a>
-              {%- endif -%} 
+                <a class="menu-link" href="{{ menu.url | relative_url }}">{{ menu.title }}</a>
+              {%- endif -%}
             {%- endif -%} 
           {%- endfor -%}
         {%- else -%}
-          <a class="menu-link {% if url == '/' %}active{% endif %}" href="/">home</a>
-          <a class="menu-link {% if url == '/about/' %}active{% endif %}" href="/about">about</a>
+          <a class="menu-link {% if url == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">home</a>
+          <a class="menu-link {% if url == '/about/' %}active{% endif %}" href="{{ '/about' | relative_url }}">about</a>
         {%- endif -%}
-        <a class="menu-link rss" href="/feed.xml">
+        <a class="menu-link rss" href="{{ '/feed.xml' | relative_url }}">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="17"

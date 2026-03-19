@@ -14,7 +14,7 @@ Hey everyone!
 We've got some thrilling updates to share about our open-source classic calculator project. We've been hard at work making the case better than ever, and we can't wait to show you what's new.
 
 <figure>
-<img src="{{ page.img1 }}" alt="housing">
+<img src="{{ page.img1 | relative_url }}" alt="housing">
 <figcaption>new details ...</figcaption>
 </figure>
 
@@ -28,7 +28,7 @@ Next, we've streamlined the case to be even more compact. It now features a subt
 Our design still pays homage to the legendary HP42, HP48, and HP50 calculators that so many of us love. But we've given it a fresh, contemporary vibe. Think smooth curves and a polished finish – it’s the classic you adore, but reimagined for today.
 
 <figure>
-<img src="{{ page.img2 }}" alt="housing">
+<img src="{{ page.img2 | relative_url }}" alt="housing">
 <figcaption>thinner at the bottom</figcaption>
 </figure>
 

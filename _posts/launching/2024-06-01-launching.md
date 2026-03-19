@@ -8,7 +8,7 @@ imginspiration: /assets/img/inspiration01.jpg
 ---
 
 <figure>
-<img src="{{ page.imglcdinit }}" alt="Javier Bascones Velazquez">
+<img src="{{ page.imglcdinit | relative_url }}" alt="Javier Bascones Velazquez">
 <figcaption>Me :-D</figcaption>
 </figure>
 
@@ -21,7 +21,7 @@ In the era of smartphones and digital apps, the charm and reliability of classic
 Our vision is to combine the best of both worlds: the robustness and precision of classic calculators with the innovation and accessibility of modern technology. By leveraging open-source principles, we aim to create a calculator that not only pays homage to the past but also invites the community to contribute and evolve the design. This project will result in a device that is not only functional but also customizable, repairable, and manufacturable by anyone with the passion and tools to do so.
 
 <figure>
-<img src="{{ page.imginspiration }}" alt="Pocket Operator">
+<img src="{{ page.imginspiration | relative_url }}" alt="Pocket Operator">
 <figcaption>Pocket Operator inspiration</figcaption>
 </figure>
 

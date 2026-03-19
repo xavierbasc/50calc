@@ -11,7 +11,7 @@ img2: /assets/img/stm32u545-pins.png
 
 Exciting news! 🎉 I’m thrilled to share with you the very first sketch of the bezel for our prototype. It’s a small but important step in this incredible journey. Please keep in mind, we still need to test everything and ensure the hardware works perfectly before moving on to developing new firmware and enclosures.
 <figure>
-<img src="{{ page.img1 }}" alt="BEZEL">
+<img src="{{ page.img1 | relative_url }}" alt="BEZEL">
 <figcaption>BEZEL prototype</figcaption>
 </figure>
 

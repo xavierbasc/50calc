@@ -43,7 +43,7 @@ Here are some LiPO battery options that could power up your calculator:
 - **900mAh**: LP305055 3.0mm x 50mm x 55mm
 
 <figure>
-<img src="{{ page.img1 }}" alt="LP305060">
+<img src="{{ page.img1 | relative_url }}" alt="LP305060">
 <figcaption>LP305060 LiPO battery</figcaption>
 </figure>
 

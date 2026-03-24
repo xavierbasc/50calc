@@ -60,5 +60,5 @@ We may update this Privacy Policy from time to time. Any changes will be reflect
 
 If you have any questions about this Privacy Policy, please contact us:
 
-**Email:** [xavierbasc@gmail.com](mailto:xavierbasc@gmail.com)
-**Website:** [https://50calc.com](https://50calc.com)
+**Email:** [javier.bascones@gmail.com](mailto:javier.bascones@gmail.com)
+**Website:** [https://xavierbasc.github.io/50calc](https://xavierbasc.github.io/50calc)
